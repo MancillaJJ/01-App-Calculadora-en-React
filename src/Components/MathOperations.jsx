@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Button from './Button/Button'
 
-const operators = ['☓','/','-','+']
+const operators = ['*','/','-','+']
 
 const MathOperations = ({onClickOperation, onClickEqual}) =>(
         <section className='math-operations'>

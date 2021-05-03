@@ -8,7 +8,7 @@ const Numbers = ({onClickNumber}) => (
         <section className='numbers'>
             {
                 nums.map((num, index) => (
-                    <Button key={`btn-number-${index}`} text = {num} clickHandler = {onClickNumber}/>
+                    <Button disableRipple key={`btn-number-${index}`} text = {num} clickHandler = {onClickNumber}/>
                 ))
             }
         </section>
